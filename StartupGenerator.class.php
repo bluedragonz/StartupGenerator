@@ -51,4 +51,7 @@ class StartupGenerator {
 
 }
 
+$obj = new StartupGenerator();
+echo $obj->next();
+
 ?>
