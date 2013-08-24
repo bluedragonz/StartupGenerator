@@ -41,6 +41,10 @@ class StartupGenerator {
 
     $this->_glue = $glue;
   }
+  
+  function __destruct() {
+       print "\nDone\n";
+  }
 
   public function next() {
     $part1 = $this->_part1[array_rand($this->_part1)];
