@@ -43,7 +43,6 @@ class StartupGenerator {
   }
   
   function __destruct() {
-       print "\nDone\n";
   }
 
   public function next() {
